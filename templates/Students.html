@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    
+<h1> Welcom to the Student Database </h1>
+
+<br><br>
+
+<table border="2">
+
+
+    {% for student in Student %}
+    <tr>
+    <td>{{student[0]}}</td>
+    <td>{{student[1]}}</td>
+    <td>{{student[2]}}</td>
+    <td>{{student[3]}}</td>
+
+</tr>
+{% endfor %}
+
+</table>
+
+
+
+
+</body>
+</html>
